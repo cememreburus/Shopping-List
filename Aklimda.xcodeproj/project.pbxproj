@@ -1,0 +1,354 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B267B77A1752A7D2000DAA0E /* checkmark.png in Resources */ = {isa = PBXBuildFile; fileRef = B267B7781752A7D2000DAA0E /* checkmark.png */; };
+		B267B77B1752A7D2000DAA0E /* checkmark@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B267B7791752A7D2000DAA0E /* checkmark@2x.png */; };
+		B267B77D1752B204000DAA0E /* icon-mim-shopping-check.png in Resources */ = {isa = PBXBuildFile; fileRef = B267B77C1752B204000DAA0E /* icon-mim-shopping-check.png */; };
+		B267B7811752BBA1000DAA0E /* icon-small.png in Resources */ = {isa = PBXBuildFile; fileRef = B267B77F1752BBA1000DAA0E /* icon-small.png */; };
+		B267B7821752BBA1000DAA0E /* icon-big.png in Resources */ = {isa = PBXBuildFile; fileRef = B267B7801752BBA1000DAA0E /* icon-big.png */; };
+		CCD79AA8168870A4001BB086 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCD79AA7168870A4001BB086 /* UIKit.framework */; };
+		CCD79AAA168870A4001BB086 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCD79AA9168870A4001BB086 /* Foundation.framework */; };
+		CCD79AAC168870A4001BB086 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCD79AAB168870A4001BB086 /* CoreGraphics.framework */; };
+		CCD79AB2168870A4001BB086 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CCD79AB0168870A4001BB086 /* InfoPlist.strings */; };
+		CCD79AB4168870A4001BB086 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CCD79AB3168870A4001BB086 /* main.m */; };
+		CCD79AB8168870A4001BB086 /* ALAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CCD79AB7168870A4001BB086 /* ALAppDelegate.m */; };
+		CCD79ABA168870A4001BB086 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = CCD79AB9168870A4001BB086 /* Default.png */; };
+		CCD79ABC168870A4001BB086 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CCD79ABB168870A4001BB086 /* Default@2x.png */; };
+		CCD79ABE168870A4001BB086 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CCD79ABD168870A4001BB086 /* Default-568h@2x.png */; };
+		CCD79AC6168871CE001BB086 /* ALListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCD79AC5168871CE001BB086 /* ALListViewController.m */; };
+		CCD79AC9168872E9001BB086 /* ALItem.m in Sources */ = {isa = PBXBuildFile; fileRef = CCD79AC8168872E9001BB086 /* ALItem.m */; };
+		CCD79AE816887A9C001BB086 /* seed.plist in Resources */ = {isa = PBXBuildFile; fileRef = CCD79AE716887A9C001BB086 /* seed.plist */; };
+		CCD79AEC16887D6A001BB086 /* ALAddItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCD79AEA16887D6A001BB086 /* ALAddItemViewController.m */; };
+		CCD79AED16887D6A001BB086 /* ALAddItemViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCD79AEB16887D6A001BB086 /* ALAddItemViewController.xib */; };
+		CCF62C071688A03200455D1E /* ALEditItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCF62C051688A03200455D1E /* ALEditItemViewController.m */; };
+		CCF62C081688A03200455D1E /* ALEditItemViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCF62C061688A03200455D1E /* ALEditItemViewController.xib */; };
+		CCF62C0C1688A82100455D1E /* ALShoppingListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCF62C0B1688A82100455D1E /* ALShoppingListViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B267B7781752A7D2000DAA0E /* checkmark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checkmark.png; sourceTree = "<group>"; };
+		B267B7791752A7D2000DAA0E /* checkmark@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "checkmark@2x.png"; sourceTree = "<group>"; };
+		B267B77C1752B204000DAA0E /* icon-mim-shopping-check.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-mim-shopping-check.png"; sourceTree = "<group>"; };
+		B267B77F1752BBA1000DAA0E /* icon-small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-small.png"; sourceTree = "<group>"; };
+		B267B7801752BBA1000DAA0E /* icon-big.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-big.png"; sourceTree = "<group>"; };
+		CCD79AA3168870A4001BB086 /* Aklimda.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Aklimda.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCD79AA7168870A4001BB086 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CCD79AA9168870A4001BB086 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CCD79AAB168870A4001BB086 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CCD79AAF168870A4001BB086 /* Aklimda-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Aklimda-Info.plist"; sourceTree = "<group>"; };
+		CCD79AB1168870A4001BB086 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CCD79AB3168870A4001BB086 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CCD79AB5168870A4001BB086 /* Aklimda-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Aklimda-Prefix.pch"; sourceTree = "<group>"; };
+		CCD79AB6168870A4001BB086 /* ALAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ALAppDelegate.h; sourceTree = "<group>"; };
+		CCD79AB7168870A4001BB086 /* ALAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ALAppDelegate.m; sourceTree = "<group>"; };
+		CCD79AB9168870A4001BB086 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		CCD79ABB168870A4001BB086 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		CCD79ABD168870A4001BB086 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		CCD79AC4168871CE001BB086 /* ALListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALListViewController.h; sourceTree = "<group>"; };
+		CCD79AC5168871CE001BB086 /* ALListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALListViewController.m; sourceTree = "<group>"; };
+		CCD79AC7168872E9001BB086 /* ALItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALItem.h; sourceTree = "<group>"; };
+		CCD79AC8168872E9001BB086 /* ALItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALItem.m; sourceTree = "<group>"; };
+		CCD79AE716887A9C001BB086 /* seed.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = seed.plist; sourceTree = "<group>"; };
+		CCD79AE916887D6A001BB086 /* ALAddItemViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALAddItemViewController.h; sourceTree = "<group>"; };
+		CCD79AEA16887D6A001BB086 /* ALAddItemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALAddItemViewController.m; sourceTree = "<group>"; };
+		CCD79AEB16887D6A001BB086 /* ALAddItemViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ALAddItemViewController.xib; sourceTree = "<group>"; };
+		CCF62C041688A03200455D1E /* ALEditItemViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALEditItemViewController.h; sourceTree = "<group>"; };
+		CCF62C051688A03200455D1E /* ALEditItemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALEditItemViewController.m; sourceTree = "<group>"; };
+		CCF62C061688A03200455D1E /* ALEditItemViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ALEditItemViewController.xib; sourceTree = "<group>"; };
+		CCF62C0A1688A82100455D1E /* ALShoppingListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALShoppingListViewController.h; sourceTree = "<group>"; };
+		CCF62C0B1688A82100455D1E /* ALShoppingListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALShoppingListViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CCD79AA0168870A4001BB086 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCD79AA8168870A4001BB086 /* UIKit.framework in Frameworks */,
+				CCD79AAA168870A4001BB086 /* Foundation.framework in Frameworks */,
+				CCD79AAC168870A4001BB086 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CCD79A98168870A4001BB086 = {
+			isa = PBXGroup;
+			children = (
+				CCD79AAD168870A4001BB086 /* Aklimda */,
+				CCD79AA6168870A4001BB086 /* Frameworks */,
+				CCD79AA4168870A4001BB086 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CCD79AA4168870A4001BB086 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CCD79AA3168870A4001BB086 /* Aklimda.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CCD79AA6168870A4001BB086 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CCD79AA7168870A4001BB086 /* UIKit.framework */,
+				CCD79AA9168870A4001BB086 /* Foundation.framework */,
+				CCD79AAB168870A4001BB086 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CCD79AAD168870A4001BB086 /* Aklimda */ = {
+			isa = PBXGroup;
+			children = (
+				CCD79AE716887A9C001BB086 /* seed.plist */,
+				CCD79AB6168870A4001BB086 /* ALAppDelegate.h */,
+				CCD79AB7168870A4001BB086 /* ALAppDelegate.m */,
+				CCD79AC4168871CE001BB086 /* ALListViewController.h */,
+				CCD79AC5168871CE001BB086 /* ALListViewController.m */,
+				CCD79AE916887D6A001BB086 /* ALAddItemViewController.h */,
+				CCD79AEA16887D6A001BB086 /* ALAddItemViewController.m */,
+				CCD79AEB16887D6A001BB086 /* ALAddItemViewController.xib */,
+				CCF62C041688A03200455D1E /* ALEditItemViewController.h */,
+				CCF62C051688A03200455D1E /* ALEditItemViewController.m */,
+				CCF62C061688A03200455D1E /* ALEditItemViewController.xib */,
+				CCF62C0A1688A82100455D1E /* ALShoppingListViewController.h */,
+				CCF62C0B1688A82100455D1E /* ALShoppingListViewController.m */,
+				CCD79AC7168872E9001BB086 /* ALItem.h */,
+				CCD79AC8168872E9001BB086 /* ALItem.m */,
+				CCD79AAE168870A4001BB086 /* Supporting Files */,
+			);
+			name = Aklimda;
+			path = "Shopping List";
+			sourceTree = "<group>";
+		};
+		CCD79AAE168870A4001BB086 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B267B77F1752BBA1000DAA0E /* icon-small.png */,
+				B267B7801752BBA1000DAA0E /* icon-big.png */,
+				B267B77C1752B204000DAA0E /* icon-mim-shopping-check.png */,
+				B267B7781752A7D2000DAA0E /* checkmark.png */,
+				B267B7791752A7D2000DAA0E /* checkmark@2x.png */,
+				CCD79AAF168870A4001BB086 /* Aklimda-Info.plist */,
+				CCD79AB0168870A4001BB086 /* InfoPlist.strings */,
+				CCD79AB3168870A4001BB086 /* main.m */,
+				CCD79AB5168870A4001BB086 /* Aklimda-Prefix.pch */,
+				CCD79AB9168870A4001BB086 /* Default.png */,
+				CCD79ABB168870A4001BB086 /* Default@2x.png */,
+				CCD79ABD168870A4001BB086 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CCD79AA2168870A4001BB086 /* Aklimda */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCD79AC1168870A5001BB086 /* Build configuration list for PBXNativeTarget "Aklimda" */;
+			buildPhases = (
+				CCD79A9F168870A4001BB086 /* Sources */,
+				CCD79AA0168870A4001BB086 /* Frameworks */,
+				CCD79AA1168870A4001BB086 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Aklimda;
+			productName = "Shopping List";
+			productReference = CCD79AA3168870A4001BB086 /* Aklimda.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CCD79A9A168870A4001BB086 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = AL;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = Burus;
+			};
+			buildConfigurationList = CCD79A9D168870A4001BB086 /* Build configuration list for PBXProject "Aklimda" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CCD79A98168870A4001BB086;
+			productRefGroup = CCD79AA4168870A4001BB086 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CCD79AA2168870A4001BB086 /* Aklimda */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CCD79AA1168870A4001BB086 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCD79AB2168870A4001BB086 /* InfoPlist.strings in Resources */,
+				CCD79ABA168870A4001BB086 /* Default.png in Resources */,
+				CCD79ABC168870A4001BB086 /* Default@2x.png in Resources */,
+				CCD79ABE168870A4001BB086 /* Default-568h@2x.png in Resources */,
+				CCD79AE816887A9C001BB086 /* seed.plist in Resources */,
+				CCD79AED16887D6A001BB086 /* ALAddItemViewController.xib in Resources */,
+				CCF62C081688A03200455D1E /* ALEditItemViewController.xib in Resources */,
+				B267B77A1752A7D2000DAA0E /* checkmark.png in Resources */,
+				B267B77B1752A7D2000DAA0E /* checkmark@2x.png in Resources */,
+				B267B77D1752B204000DAA0E /* icon-mim-shopping-check.png in Resources */,
+				B267B7811752BBA1000DAA0E /* icon-small.png in Resources */,
+				B267B7821752BBA1000DAA0E /* icon-big.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CCD79A9F168870A4001BB086 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCD79AB4168870A4001BB086 /* main.m in Sources */,
+				CCD79AB8168870A4001BB086 /* ALAppDelegate.m in Sources */,
+				CCD79AC6168871CE001BB086 /* ALListViewController.m in Sources */,
+				CCD79AC9168872E9001BB086 /* ALItem.m in Sources */,
+				CCD79AEC16887D6A001BB086 /* ALAddItemViewController.m in Sources */,
+				CCF62C071688A03200455D1E /* ALEditItemViewController.m in Sources */,
+				CCF62C0C1688A82100455D1E /* ALShoppingListViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CCD79AB0168870A4001BB086 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCD79AB1168870A4001BB086 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CCD79ABF168870A4001BB086 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CCD79AC0168870A4001BB086 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CCD79AC2168870A5001BB086 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Cem Emre Burus (F7R9HRPK44)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Shopping List/Aklimda-Prefix.pch";
+				INFOPLIST_FILE = "Shopping List/Aklimda-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				PRODUCT_NAME = Aklimda;
+				PROVISIONING_PROFILE = "E2832213-17F0-468E-8F34-815F7BA540E6";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CCD79AC3168870A5001BB086 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Cem Emre Burus (F7R9HRPK44)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Shopping List/Aklimda-Prefix.pch";
+				INFOPLIST_FILE = "Shopping List/Aklimda-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				PRODUCT_NAME = Aklimda;
+				PROVISIONING_PROFILE = "E2832213-17F0-468E-8F34-815F7BA540E6";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CCD79A9D168870A4001BB086 /* Build configuration list for PBXProject "Aklimda" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCD79ABF168870A4001BB086 /* Debug */,
+				CCD79AC0168870A4001BB086 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCD79AC1168870A5001BB086 /* Build configuration list for PBXNativeTarget "Aklimda" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCD79AC2168870A5001BB086 /* Debug */,
+				CCD79AC3168870A5001BB086 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CCD79A9A168870A4001BB086 /* Project object */;
+}
